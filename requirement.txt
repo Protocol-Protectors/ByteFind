@@ -1,0 +1,12 @@
+Pyfiglet 
+Whois
+dnspython
+requests
+re 
+BeautifulSoup4
+python-Wappalyzer 
+Wappalyzer  
+python-nmap
+Scapy  
+Validators
+Censys

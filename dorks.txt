@@ -1,0 +1,15 @@
+# Google Dork queries
+# Format: Dork Name: Dork Query
+# Use {domain} as a placeholder for the domain
+
+Directory Listing: site:{domain} intitle:index.of
+Configuration Files: site:{domain} ext:xml OR ext:conf OR ext:cnf OR ext:reg OR ext:inf OR ext:rdp OR ext:cfg OR ext:txt OR ext:ora OR ext:ini
+Database Files: site:{domain} ext:sql OR ext:dbf OR ext:mdb OR ext:db
+Log Files: site:{domain} ext:log OR ext:logs
+Backup Files: site:{domain} ext:bkf OR ext:bkp OR ext:bak OR ext:old OR ext:backup
+Login Pages: site:{domain} inurl:login OR inurl:signin OR intitle:Login OR intitle:'sign in'
+Sensitive Documents: site:{domain} filetype:pdf OR filetype:doc OR filetype:docx OR filetype:xls OR filetype:xlsx
+PHP Info Pages: site:{domain} filetype:php intitle:phpinfo 'published by the PHP Group'
+Exposed Email Addresses: site:{domain} '@{domain}'
+Public Google Docs: site:{domain} filetype:pdf OR filetype:doc OR filetype:docx OR filetype:xls OR filetype:xlsxdataa: site: ext:sql OR ext:dbf
+
