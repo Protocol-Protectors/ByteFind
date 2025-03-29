@@ -71,7 +71,7 @@ Byte Find is a powerful information-gathering and security assessment tool desig
    ```
 3. Install dependencies:
    ```bash
-   pip install -r requirements.txt --break-system-packages
+   pip install -r requirement.txt --break-system-packages
    ```
 4. Run the application:
    ```bash
