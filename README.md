@@ -75,7 +75,7 @@ Byte Find is a powerful information-gathering and security assessment tool desig
    ```
 4. Run the application:
    ```bash
-   python3 Byte_Find.py
+   python3 ByteFind.py
    ```
 
 ---
