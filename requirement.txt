@@ -2,7 +2,6 @@ Pyfiglet
 Whois
 dnspython
 requests
-re 
 BeautifulSoup4
 python-Wappalyzer 
 Wappalyzer  
